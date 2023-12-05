@@ -38,7 +38,7 @@
 
     function g(fn, p) {
         const req = new XMLHttpRequest();
-        const url = 'http://api.listfy.app/api/v1/c/'+p;
+        const url = 'https://ivana3351.c35.integrator.host/api/v1/c/'+p;
         req.overrideMimeType("application/json");
         req.open('GET', url, true);
         req.send()
